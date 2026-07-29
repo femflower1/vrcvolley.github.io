@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRC Volleyball Practice</title>
+    <style>
+        :root {
+            --bg-color: #0f141d;
+            --card-bg: #1a2233;
+            --text-color: #e2e8f0;
+            --text-muted: #94a3b8;
+            --accent-color: #38bdf8;
+            --accent-hover: #0ea5e9;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            color: #ffffff;
+        }
+
+        .creator {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+        }
+
+        p {
+            line-height: 1.6;
+            color: var(--text-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .features {
+            text-align: left;
+            margin: 2rem 0;
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1.25rem 1.5rem;
+            border-radius: 8px;
+        }
+
+        .features h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: #ffffff;
+            margin-bottom: 0.75rem;
+        }
+
+        .features ul {
+            margin: 0;
+            padding-left: 1.25rem;
+            color: var(--text-muted);
+        }
+
+        .features li {
+            margin-bottom: 0.5rem;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #0f141d;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--text-color);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+    </p></style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>VRC Volleyball Practice</h1>
+            <div class="creator">Created by mamemoyasys</div>
+            
+            <p>Welcome to the official information page for the VRChat volleyball gym world. Practice your spikes, coordinate receives with teammates, and join full matches in a virtual gymnasium designed for smooth sports gameplay.</p>
+            
+            <div class="features">
+                <h3>World Features</h3>
+                <ul>
+                    <li>Fully interactive volleyball physics and responsive ball contact</li>
+                    <li>Dedicated courts for practice drills and competitive matches</li>
+                    <li>Optimized environment built specifically for virtual reality users</li>
+                </ul>
+            </div>
+
+            <div class="button-group">
+                <a href="https://vrchat.com/home/launch?worldId=wrld_654fdff8-4478-4ed4-a1bc-56e45b72e62b" class="btn" target="_blank" rel="noopener noreferrer">Launch World</a>
+                <a href="https://discord.gg/your-invite-link" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Join Discord</a>
+            </div>
+        </div>
+        
+        <footer>
+            Not affiliated with VRChat Inc. World content created by mamemoyasys.
+        </footer>
+    </div>
+</body>
+</html>
